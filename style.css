@@ -1,0 +1,90 @@
+
+html,body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pride-card {
+    width: 200px;
+    height: 300px;
+    background: hotpink;
+    position: absolute;
+    transform-origin:center bottom;
+}
+
+body:hover .pride-card:nth-child(1) {
+    background:pink;
+    transform: translateX(-3rem);
+    transform: rotateZ(-45deg);
+    z-index: 9;
+    
+
+}
+
+body:hover .pride-card:nth-child(2) {
+    background:plum;
+    transform: translateX(-4rem);
+    transform: rotateZ(-35deg);
+    z-index: 8;
+  
+
+}
+
+body:hover .pride-card:nth-child(3) {
+    background:rgb(109, 109, 243);
+    transform: translateX(-5rem);
+    transform: rotateZ(-25deg);
+    z-index: 7;
+    
+}
+body:hover .pride-card:nth-child(4) {
+    background:rgb(42, 202, 238);
+    transform: translateX(-6rem);
+    transform: rotateZ(-15deg);
+    z-index: 6;
+  
+
+}
+body:hover .pride-card:nth-child(5) {
+    background:rgb(79, 144, 79);
+    transform: translateX(0rem);
+    transform: rotateZ(0deg);
+    z-index: 5;
+    
+
+}
+body:hover .pride-card:nth-child(6) {
+    background:greenyellow;
+    transform: translateX(-6rem);
+    transform: rotateZ(15deg);
+    z-index: 4;
+   
+
+}
+body:hover .pride-card:nth-child(7) {
+    background:yellow;
+    transform: translateX(5rem);
+    transform: rotateZ(25deg);
+    z-index: 3;
+    
+
+}
+body:hover .pride-card:nth-child(8) {
+    background:orange;
+    transform: translateX(4rem);
+    transform: rotateZ(35deg);
+    z-index: 2;
+    
+
+}
+body:hover .pride-card:nth-child(9) {
+    background:red;
+    transform: translateX(3rem);
+    transform: rotateZ(45deg);
+    z-index: 1;
+    
+
+}
